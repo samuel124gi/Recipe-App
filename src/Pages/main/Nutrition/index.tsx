@@ -23,12 +23,12 @@ const Nutrition = () => {
         <Text>Carbs</Text>
         <Values>0g</Values>
       </Container>
-      <Line></Line>{" "}
+      <Line></Line>
       <Container>
         <Text>Protein</Text>
         <Values>20g</Values>
       </Container>
-      <Line></Line>{" "}
+      <Line></Line>
       <Container>
         <Text>Fat</Text>
         <Values>22g</Values>
