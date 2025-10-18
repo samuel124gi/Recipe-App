@@ -2,12 +2,12 @@ import image from "../../assets/images/image-omelette.jpeg";
 import {
   Heading,
   Image,
-  Imagecontainer,
-  Innercontainer,
-  Maincontainer,
+  ImageContainer,
+  InnerContainer,
+  MainContainer,
   ProductDescription,
   ProductName,
-  Textcontainer,
+  TextContainer,
   Line,
 } from "./styles";
 import Preparation from "./Preparation";
@@ -16,12 +16,12 @@ import Instruction from "./Instruction";
 import Nutrition from "./Nutrition";
 const Main = () => {
   return (
-    <Maincontainer>
-      <Innercontainer>
-        <Imagecontainer>
+    <MainContainer>
+      <InnerContainer>
+        <ImageContainer>
           <Image src={image} />
-        </Imagecontainer>
-        <Textcontainer>
+        </ImageContainer>
+        <TextContainer>
           <Heading>
             <ProductName>Simple Omelette Recipe</ProductName>
             <ProductDescription>
@@ -36,9 +36,9 @@ const Main = () => {
           <Instruction />
           <Line />
           <Nutrition />
-        </Textcontainer>
-      </Innercontainer>
-    </Maincontainer>
+        </TextContainer>
+      </InnerContainer>
+    </MainContainer>
   );
 };
 

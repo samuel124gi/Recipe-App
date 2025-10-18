@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
 import colors from "../../styles/color";
 
-export const Maincontainer = styled.div`
+export const MainContainer = styled.div`
   display: flex;
   background-color: ${colors.primary01};
   padding: 100px 0px;
   height: 100%;
 `;
-export const Innercontainer = styled.div`
+export const InnerContainer = styled.div`
   display: flex;
   width: 736px;
   max-width: 736px;
@@ -18,7 +18,7 @@ export const Innercontainer = styled.div`
   border-radius: 24px;
   gap: 40px;
 `;
-export const Imagecontainer = styled.div`
+export const ImageContainer = styled.div`
   border-radius: 12px;
   overflow: hidden;
 `;
@@ -28,7 +28,7 @@ export const Image = styled.img`
   width: 100%;
   object-fit: cover;
 `;
-export const Textcontainer = styled.div`
+export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 32px;

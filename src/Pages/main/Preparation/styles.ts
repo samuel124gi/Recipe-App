@@ -4,7 +4,7 @@ import colors from "../../../styles/color";
 export const PreparationHeading = styled.p`
   font-size: 20px;
   line-height: 100%;
-  color: "${colors.secondary03}";
+  color: ${colors.secondary03};
   letter-spacing: 0%;
 `;
 
