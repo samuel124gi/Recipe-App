@@ -2,26 +2,26 @@ import image from "../../assets/images/image-omelette.jpeg";
 import {
   Heading,
   Image,
-  Imagecontainer,
-  Innercontainer,
-  Maincontainer,
+  ImageContainer,
+  InnerContainer,
+  MainContainer,
   ProductDescription,
   ProductName,
-  Textcontainer,
+  TextContainer,
   Line,
 } from "./styles";
 import Preparation from "./Preparation";
 import Ingredients from "./Ingredients";
 import Instruction from "./Instruction";
 import Nutrition from "./Nutrition";
-const HomePage = () => {
+const Main = () => {
   return (
-    <Maincontainer>
-      <Innercontainer>
-        <Imagecontainer>
+    <MainContainer>
+      <InnerContainer>
+        <ImageContainer>
           <Image src={image} />
-        </Imagecontainer>
-        <Textcontainer>
+        </ImageContainer>
+        <TextContainer>
           <Heading>
             <ProductName>Simple Omelette Recipe</ProductName>
             <ProductDescription>
@@ -36,10 +36,10 @@ const HomePage = () => {
           <Instruction />
           <Line />
           <Nutrition />
-        </Textcontainer>
-      </Innercontainer>
-    </Maincontainer>
+        </TextContainer>
+      </InnerContainer>
+    </MainContainer>
   );
 };
 
-export default HomePage;
+export default Main;

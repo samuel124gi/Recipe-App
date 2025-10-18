@@ -10,7 +10,7 @@ export const IngredientHeading = styled.h1`
 `;
 
 export const Text = styled.span`
-  color: ${colors.primary03};
+  color: ${colors.secondary05};
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
@@ -27,7 +27,7 @@ export const IngredientList = styled.ul`
   padding: 0px 20px;
 `;
 export const IngredientListItem = styled.li`
-  color: ${colors.primary03};
+  color: ${colors.secondary05};
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;

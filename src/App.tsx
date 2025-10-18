@@ -1,9 +1,9 @@
-import Mainpage from "./Pages/main";
+import Main from "./pages/main";
 
 const App = () => {
   return (
     <>
-      <Mainpage />
+      <Main />
     </>
   );
 };
