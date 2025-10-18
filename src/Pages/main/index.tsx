@@ -14,7 +14,7 @@ import Preparation from "./Preparation";
 import Ingredients from "./Ingredients";
 import Instruction from "./Instruction";
 import Nutrition from "./Nutrition";
-const HomePage = () => {
+const Main = () => {
   return (
     <Maincontainer>
       <Innercontainer>
@@ -42,4 +42,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Main;
