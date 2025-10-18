@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import colors from "../../../styles/color";
 
 export const Text = styled.span`
-  color: ${colors.primary03};
+  color: ${colors.secondary05};
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;

@@ -49,7 +49,7 @@ export const ProductName = styled.h1`
   font-family: Young Serif;
 `;
 export const ProductDescription = styled.p`
-  color: ${colors.primary03};
+  color: ${colors.secondary05};
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
